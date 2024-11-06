@@ -1,0 +1,211 @@
+li:hover{
+	background: orange;
+	color: white;
+	border-radius: 5px;
+	transition: all 0.2s ease-in-out;
+	
+}
+body{
+	min-width: 1150px;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	display: flex;
+	background:-webkit-linear-gradient(left,green,yellow,red);
+	position: sticky;
+	top: 0px;
+	border-radius: 10px;
+	font-family: arial black;
+	z-index: 1000;	
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	color: red;
+	padding: 12px;
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+img{
+	width:100%;	
+	
+}
+.clasic{
+	justify-items: center;
+}
+
+div{
+	background:  rgb(231, 224, 215);
+	grid-template-columns:repeat(5,1fr) ;
+	display: grid;
+	border-radius: 4px;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-attachment: fixed;
+	z-index: 1000;
+}
+
+video{
+	width: 100%;
+	cursor: pointer;
+}	
+.sud{
+	grid-template-columns:repeat(3,1fr) ;
+	gap: 1rem;
+	display: grid;
+	border-radius: 4px;
+	background: whitesmoke;
+
+	background-attachment: fixed;
+
+}
+
+figcaption{
+	font-size: 2rem;
+	color:blue;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	font-weight: bolder;
+}
+.ND{
+	text-align: center;
+	color: aquamarine;
+}
+
+.ND:hover{
+    transition: 0.5s;
+   transform: scale(1.2 ); 
+   background-color: skyblue;
+   border-radius: 15px;
+   color: blue;
+}
+footer{
+	
+	background: yellow;
+	font-size: 1rem;
+	font-family: comic sans ms;
+	color: red;
+}
+article{
+	color: blue; 
+	font-family:Trebuchet ms ;
+	font-size: 2em;		
+}
+.poo{
+	position: absolute;
+	top:-4px;
+	right: 20px;
+	width: 90px;
+	height: 90px;	
+	
+}
+header{
+	font-size: 1em;
+	font-family:comic sans ms ;
+	border-radius: 11px;
+	background: black;
+	color: white;
+}
+
+img:hover{
+	transition: 0.5s;
+	transform: scale(1.2 );
+	background-image:url(lion.jpg);
+	border-radius: 120px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rel;
+}  
+.first, .second, .third{
+	background: white;
+    border-radius: 12px;
+    position: relative;
+   
+}
+.on{
+	border-radius: 50%;
+	width:100px ;
+	height: 100px;
+	background: green;
+	position: absolute;
+	left: 22px;
+	animation: abou 15s ease-in infinite;
+	animation-delay:0.9S; 
+	z-index: 100;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+@keyframes abou{
+0%{
+transform:translateY(10px);
+}
+50%{
+	transform: translatey(800px);
+}
+100%{
+	transform:translateY(10px);
+}
+}
+/*green*/
+
+@keyframes bou{
+0%{
+transform:translateY(10px);
+}
+50%{
+	transform: translatey(700px);
+}
+100%{
+	transform:translateY(10px);
+}
+}
+
+.ono{
+	border-radius: 50%;
+	width:100px ;
+	height: 100px;
+	background: yellow;
+	position: absolute;
+	right: 522px;
+	animation: bou 14s ease-in infinite;
+	animation-delay:0.25S;
+	z-index: 100;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+/*yellow*/
+.no{
+	border-radius: 50%;
+	width:100px ;
+	height: 100px;
+	background: red;
+	position: absolute;
+	right: 22px;
+	animation: abo 20s ease-in infinite;
+	animation-delay:0.30S; 
+	z-index: 100;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+@keyframes abo{
+0%{
+transform:translateY(10px);
+}
+50%{
+	transform: translatey(800px);
+}
+100%{
+	transform:translateY(10px);
+}
+}
+/*red*/
